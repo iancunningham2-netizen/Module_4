@@ -1,0 +1,36 @@
+/* type selector */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: navy;
+    background-color: lightgray;
+}
+
+/8* type selector */
+h1 {
+    color: darkgreen;
+    font-size: 2em;
+}
+
+/* class selector */
+.highlight {
+    color: maroon;
+    font-weight: bold;
+}
+
+/* relational selector */
+nav a {
+    text-decoration: none;
+    color: teal;
+}
+
+
+
+nav a:hover {
+    color: red;
+}
+
+/* type selector */
+img {
+    width: 50%;
+}
